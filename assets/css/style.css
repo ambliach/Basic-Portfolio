@@ -1,2 +1,60 @@
-#contact {color: red}
-#portfolio {color: blueviolet}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+  }
+  
+  header {
+    background: #333;
+  }
+  
+  .header { 
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color:rgb(0, 183, 255);
+    text-align: left;
+    background: white
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  a {
+    color: #d21034;
+  }
+  
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  
+  .main-bio,
+  #bio-image {
+    float: left;
+  }
+  
+  .main-bio {
+    width: 70%;
+  }
+  
+  #contact-info {
+    width: 30%;
+    float: right;
+  }
+  
+  #bio-image {
+    width: 220px;
+    height: 210px;
+    margin-right: 20px;
+
+  }
+
+  #about {
+    color: blue}
